@@ -39,8 +39,9 @@ with st.expander("How to use"):
     st.write("Paste a chat log or email thread below to see if the conversation is healthy or needs intervention.")
 
 # User Input area
-user_input = st.text_area("Paste Conversation Log:", placeholder="User A: Where is the report? 
-                            User B: Still waiting on HR. User A: It was due yesterday.", height=200)
+user_input = st.text_area("Paste Conversation Log:", placeholder=
+                          "User A: Where is the report? User B: Still waiting on HR. User A: It was due yesterday.", 
+                          height=200)
 
 if st.button("Analyze Health"):
     if user_input.strip():
