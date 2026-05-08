@@ -3,7 +3,7 @@ from google import genai
 from google.genai import types
 
 # --- PAGE CONFIG ---
-st.set_page_config(page_title="CommPulse AI", page_icon="💬")
+st.set_page_config(page_title="AIRA Test", page_icon="💬")
 
 # --- AUTHENTICATION ---
 # Streamlit uses st.secrets to keep your API key hidden and safe
