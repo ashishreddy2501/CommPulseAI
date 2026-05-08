@@ -37,6 +37,7 @@ st.subheader("Professional Communication Health Analyzer")
 
 with st.expander("How to use"):
     st.write("Paste a chat log or email thread below to see if the conversation is healthy or needs intervention.")
+    st.write("Categorises the conversation as FLOWING, STALLED, or ESCALATE and provides a short recommendation.")
 
 # User Input area
 user_input = st.text_area("Paste Conversation Log:", placeholder=
